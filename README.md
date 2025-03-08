@@ -12,11 +12,13 @@ Disini saya melakukan eksplorasi data dan membuat visualisasi data  untuk :
 
 Requirements
 --
-Proyek ini menggunakan beberapa library yaitu numpy, pandas, matplotlib, babel, seaborn, dan streamlit. Pastikan sudah menginstall python dan untuk install library dapat dilihat dalam file requirement.txt.
+Proyek ini menggunakan beberapa library yaitu numpy, pandas, matplotlib, babel, seaborn, dan streamlit. Pastikan sudah menginstall python dan untuk install library yang dapat dilihat dalam file requirement.txt.
 
-Setup Environment - Shell/Terminal
+Setup Environment - PowerShell/Terminal
 --
-pip install streamlit 
+conda create --name my-env python=3.12
+conda activate my-env
+pip install streamlit babel
 pip install -r requirements.txt
 
 Run steamlit app
