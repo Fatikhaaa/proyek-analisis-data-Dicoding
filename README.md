@@ -16,14 +16,10 @@ Proyek ini menggunakan beberapa library yaitu numpy, pandas, matplotlib, babel, 
 
 Setup Environment - PowerShell/Terminal
 --
-conda create --name my-env python=3.12
--
-conda activate my-env
--
-pip install streamlit babel
--
-pip install -r requirements.txt
--
+- conda create --name my-env python=3.12
+- conda activate my-env
+- pip install streamlit babel
+- pip install -r requirements.txt
 
 Run steamlit app
 --
