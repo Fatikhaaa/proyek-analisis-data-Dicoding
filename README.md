@@ -14,12 +14,12 @@ Requirements
 --
 Proyek ini menggunakan beberapa library yaitu numpy, pandas, matplotlib, babel, seaborn, dan streamlit. Pastikan sudah menginstall python dan untuk install library yang dapat dilihat dalam file requirement.txt.
 
-Setup Environment - PowerShell/Terminal
+# Setup Environment - PowerShell/Terminal
 --
-- conda create --name my-env python=3.12
-- conda activate my-env
-- pip install streamlit babel
-- pip install -r requirements.txt
+  conda create --name my-env python=3.12
+  conda activate my-env
+  pip install streamlit babel
+  pip install -r requirements.txt
 
 Run steamlit app
 --
